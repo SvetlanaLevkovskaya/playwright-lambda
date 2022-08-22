@@ -43,5 +43,4 @@ test.only('login test demo', async () => {
   await page.fill("//input[@placeholder='Password']", "qw1234QW11");
   await page.click("//input[@type='submit']")
 
-  
 });
