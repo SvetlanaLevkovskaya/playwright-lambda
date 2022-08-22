@@ -81,7 +81,7 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 9085,
+                  "duration": 7542,
                   "stdout": [
                     {
                       "text": "Please enter your Message\n"
@@ -130,7 +130,7 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 5628,
+                  "duration": 6252,
                   "stdout": [
                     {
                       "text": "122\n"
@@ -157,6 +157,45 @@
           ],
           "file": "tests/basicActions.test.ts",
           "line": 15,
+          "column": 1
+        },
+        {
+          "title": "checkbox",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 3903,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\playwright-lambda\\test-results\\tests-basicActions-checkbox\\video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\playwright-lambda\\test-results\\tests-basicActions-checkbox\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "tests/basicActions.test.ts",
+          "line": 33,
           "column": 1
         }
       ]
