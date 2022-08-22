@@ -12,11 +12,11 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "d:/playwright-lambda/test-results",
+        "outputDir": "D:/playwright-lambda/test-results",
         "repeatEach": 1,
         "retries": 0,
         "name": "",
-        "testDir": "d:/playwright-lambda",
+        "testDir": "D:/playwright-lambda",
         "testIgnore": [],
         "testMatch": [
           "tests/dropdown.test.ts"
@@ -46,7 +46,7 @@
       "max": 5,
       "threshold": 15000
     },
-    "rootDir": "d:/playwright-lambda",
+    "rootDir": "D:/playwright-lambda",
     "quiet": false,
     "shard": null,
     "updateSnapshots": "missing",
@@ -55,8 +55,8 @@
     "webServer": null,
     "_watchMode": false,
     "_webServers": [],
-    "_globalOutputDir": "d:\\playwright-lambda",
-    "_configDir": "d:\\playwright-lambda",
+    "_globalOutputDir": "D:\\playwright-lambda",
+    "_configDir": "D:\\playwright-lambda",
     "_testGroupsCount": 1,
     "_workerIsolation": "isolate-pools"
   },
@@ -68,7 +68,7 @@
       "column": 0,
       "specs": [
         {
-          "title": "dropdown",
+          "title": "multiple objects",
           "ok": true,
           "tags": [],
           "tests": [
@@ -81,7 +81,7 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 10142,
+                  "duration": 8052,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
@@ -89,12 +89,12 @@
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "d:\\playwright-lambda\\test-results\\tests-dropdown-dropdown\\video.webm"
+                      "path": "D:\\playwright-lambda\\test-results\\tests-dropdown-multiple-objects\\video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "d:\\playwright-lambda\\test-results\\tests-dropdown-dropdown\\test-finished-1.png"
+                      "path": "D:\\playwright-lambda\\test-results\\tests-dropdown-multiple-objects\\test-finished-1.png"
                     }
                   ]
                 }
@@ -103,8 +103,8 @@
             }
           ],
           "file": "tests/dropdown.test.ts",
-          "line": 3,
-          "column": 1
+          "line": 15,
+          "column": 6
         }
       ]
     }
