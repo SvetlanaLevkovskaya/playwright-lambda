@@ -1,7 +1,7 @@
 import type { PlaywrightTestConfig } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
-  testMatch: ["tests/modals.test.ts"],
+  testMatch: ["tests/dropdown.test.ts"],
   use: {
     headless: false,
     screenshot: "on",

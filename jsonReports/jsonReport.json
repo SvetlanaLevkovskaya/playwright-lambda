@@ -12,14 +12,14 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "D:/playwright-lambda/test-results",
+        "outputDir": "d:/playwright-lambda/test-results",
         "repeatEach": 1,
         "retries": 0,
         "name": "",
-        "testDir": "D:/playwright-lambda",
+        "testDir": "d:/playwright-lambda",
         "testIgnore": [],
         "testMatch": [
-          "tests/alerts.test.ts"
+          "tests/dropdown.test.ts"
         ],
         "timeout": 30000
       }
@@ -46,7 +46,7 @@
       "max": 5,
       "threshold": 15000
     },
-    "rootDir": "D:/playwright-lambda",
+    "rootDir": "d:/playwright-lambda",
     "quiet": false,
     "shard": null,
     "updateSnapshots": "missing",
@@ -55,20 +55,20 @@
     "webServer": null,
     "_watchMode": false,
     "_webServers": [],
-    "_globalOutputDir": "D:\\playwright-lambda",
-    "_configDir": "D:\\playwright-lambda",
+    "_globalOutputDir": "d:\\playwright-lambda",
+    "_configDir": "d:\\playwright-lambda",
     "_testGroupsCount": 1,
     "_workerIsolation": "isolate-pools"
   },
   "suites": [
     {
-      "title": "tests\\alerts.test.ts",
-      "file": "tests/alerts.test.ts",
+      "title": "tests\\dropdown.test.ts",
+      "file": "tests/dropdown.test.ts",
       "line": 0,
       "column": 0,
       "specs": [
         {
-          "title": "prompt",
+          "title": "dropdown",
           "ok": true,
           "tags": [],
           "tests": [
@@ -81,24 +81,20 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 6045,
-                  "stdout": [
-                    {
-                      "text": "Enter name\n"
-                    }
-                  ],
+                  "duration": 7487,
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-alerts-prompt\\video.webm"
+                      "path": "d:\\playwright-lambda\\test-results\\tests-dropdown-dropdown\\video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-alerts-prompt\\test-finished-1.png"
+                      "path": "d:\\playwright-lambda\\test-results\\tests-dropdown-dropdown\\test-finished-1.png"
                     }
                   ]
                 }
@@ -106,9 +102,9 @@
               "status": "expected"
             }
           ],
-          "file": "tests/alerts.test.ts",
-          "line": 30,
-          "column": 6
+          "file": "tests/dropdown.test.ts",
+          "line": 3,
+          "column": 1
         }
       ]
     }
