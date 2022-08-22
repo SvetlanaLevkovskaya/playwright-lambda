@@ -29,7 +29,7 @@ test('register test demo', async () => {
   
 });
 
-test('login test demo', async () => {
+test.only('login test demo', async () => {
   const browser = await chromium.launch({headless: false});
   const context = await browser.newContext();
   const page = await context.newPage();
@@ -40,6 +40,12 @@ test('login test demo', async () => {
   await page.click("'Login'");
   await page.fill("//input[@placeholder='E-Mail Address']", "levkovskayase@gmail.com");
   await page.fill("//input[@placeholder='Password']", "qw1234QW11");
-  await page.click("//input[@type='submit']")
+  await page.click("//input[@type='submit']");
+  await page.waitForTimeout(5000);
+
+  // Open new tab
+  const newTab = await context.newPage();
+  await newTab.goto("https://ecommerce-playground.lambdatest.io/index.php?route=account/login");
+  await page.waitForTimeout(5000);
 
 });
