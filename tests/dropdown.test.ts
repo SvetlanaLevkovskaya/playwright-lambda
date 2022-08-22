@@ -12,7 +12,7 @@ test("handling dropdown", async ({ page }) => {
 
 });
 
-test.only("multiple objects",async ({ page }) => {
+test("multiple objects", async ({ page }) => {
   await page.goto("https://www.lambdatest.com/selenium-playground/select-dropdown-demo");
   const scrolldown = page.locator("//div[text()='Multi Select List Demo']");
   await scrolldown.scrollIntoViewIfNeeded();
@@ -28,4 +28,33 @@ test.only("multiple objects",async ({ page }) => {
 
 await page.waitForTimeout(3000);
 
+});
+
+test("jquery select dropdown1",async ({ page }) => {
+  await page.goto("https://www.lambdatest.com/selenium-playground/jquery-dropdown-search-demo");
+  await page.click("#country+span");
+  await page.locator("ul#select2-country-results") 
+       .locator("li", {
+          hasText: "Netherlands"
+        }).click();
+
+  await page.waitForTimeout(3000)
+
+});
+
+test.only("jquery select dropdown2",async ({ page }) => {
+  await page.goto("https://www.lambdatest.com/selenium-playground/jquery-dropdown-search-demo");
+  await selectCountry("Japan");
+  await selectCountry("Hong Kong");
+  await selectCountry("Australia");
+
+  async function selectCountry(contryName) {
+    await page.click("#country+span");
+    await page.locator("ul#select2-country-results") 
+    .locator("li", {
+       hasText: contryName
+     }).click();
+
+  };
+  
 });

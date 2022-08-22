@@ -12,11 +12,11 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "D:/playwright-lambda/test-results",
+        "outputDir": "d:/playwright-lambda/test-results",
         "repeatEach": 1,
         "retries": 0,
         "name": "",
-        "testDir": "D:/playwright-lambda",
+        "testDir": "d:/playwright-lambda",
         "testIgnore": [],
         "testMatch": [
           "tests/dropdown.test.ts"
@@ -46,7 +46,7 @@
       "max": 5,
       "threshold": 15000
     },
-    "rootDir": "D:/playwright-lambda",
+    "rootDir": "d:/playwright-lambda",
     "quiet": false,
     "shard": null,
     "updateSnapshots": "missing",
@@ -55,8 +55,8 @@
     "webServer": null,
     "_watchMode": false,
     "_webServers": [],
-    "_globalOutputDir": "D:\\playwright-lambda",
-    "_configDir": "D:\\playwright-lambda",
+    "_globalOutputDir": "d:\\playwright-lambda",
+    "_configDir": "d:\\playwright-lambda",
     "_testGroupsCount": 1,
     "_workerIsolation": "isolate-pools"
   },
@@ -68,7 +68,7 @@
       "column": 0,
       "specs": [
         {
-          "title": "multiple objects",
+          "title": "jquery select dropdown2",
           "ok": true,
           "tags": [],
           "tests": [
@@ -81,7 +81,7 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 8052,
+                  "duration": 5350,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
@@ -89,12 +89,12 @@
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-dropdown-multiple-objects\\video.webm"
+                      "path": "d:\\playwright-lambda\\test-results\\tests-dropdown-jquery-select-dropdown2\\video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-dropdown-multiple-objects\\test-finished-1.png"
+                      "path": "d:\\playwright-lambda\\test-results\\tests-dropdown-jquery-select-dropdown2\\test-finished-1.png"
                     }
                   ]
                 }
@@ -103,7 +103,7 @@
             }
           ],
           "file": "tests/dropdown.test.ts",
-          "line": 15,
+          "line": 45,
           "column": 6
         }
       ]
