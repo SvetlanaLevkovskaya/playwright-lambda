@@ -1,8 +1,8 @@
 import type { PlaywrightTestConfig } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
-  testMatch: ["tests/login.test.ts"],
-  reporter: 'html',
+  testMatch: ["tests/recorded.test.ts"],
+  //reporter: 'html',
   };
 
   
