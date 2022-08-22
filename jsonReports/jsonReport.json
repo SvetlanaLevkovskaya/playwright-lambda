@@ -68,7 +68,7 @@
       "column": 0,
       "specs": [
         {
-          "title": "",
+          "title": "Interaction with inputs",
           "ok": true,
           "tags": [],
           "tests": [
@@ -81,7 +81,7 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 10411,
+                  "duration": 9085,
                   "stdout": [
                     {
                       "text": "Please enter your Message\n"
@@ -99,12 +99,12 @@
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-basicActions-\\video.webm"
+                      "path": "D:\\playwright-lambda\\test-results\\tests-basicActions-Interaction-with-inputs\\video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-basicActions-\\test-finished-1.png"
+                      "path": "D:\\playwright-lambda\\test-results\\tests-basicActions-Interaction-with-inputs\\test-finished-1.png"
                     }
                   ]
                 }
@@ -114,6 +114,49 @@
           ],
           "file": "tests/basicActions.test.ts",
           "line": 3,
+          "column": 1
+        },
+        {
+          "title": "Sum",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 5628,
+                  "stdout": [
+                    {
+                      "text": "122\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\playwright-lambda\\test-results\\tests-basicActions-Sum\\video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\playwright-lambda\\test-results\\tests-basicActions-Sum\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "tests/basicActions.test.ts",
+          "line": 15,
           "column": 1
         }
       ]
