@@ -81,11 +81,22 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 10570,
+                  "duration": 16330,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "attachments": []
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\playwright-lambda\\test-results\\tests-recorded-test\\video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\playwright-lambda\\test-results\\tests-recorded-test\\test-finished-1.png"
+                    }
+                  ]
                 }
               ],
               "status": "expected"
