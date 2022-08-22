@@ -11,7 +11,8 @@ test("alert",async ({ page }) => {
   });
 
   await page.locator("button:has-text('Click Me')").nth(0).click();
-  
+  await page.waitForTimeout(3000)
+
 });
 
 test("confirm",async ({ page }) => {
@@ -26,6 +27,7 @@ test("confirm",async ({ page }) => {
 
   await page.locator("button:has-text('Click Me')").nth(1).click();
   expect(page.locator("#confirm-demo")).toContainText("You pressed Cancel!");
+  await page.waitForTimeout(3000)
 
 });
 
@@ -41,5 +43,6 @@ test.only("prompt",async ({ page }) => {
 
   await page.locator("button:has-text('Click Me')").nth(2).click();
   expect(page.locator("#prompt-demo")).toContainText("Sveta");
+  await page.waitForTimeout(3000)
 
 });

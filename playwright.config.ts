@@ -11,7 +11,7 @@ const config: PlaywrightTestConfig = {
   reporter: [["dot"], ["json", {
     outputFile: "jsonReports/jsonReport.json"
   }], ["html", {
-    open: "always"
+    open: "never"
   }]]   
   };
 

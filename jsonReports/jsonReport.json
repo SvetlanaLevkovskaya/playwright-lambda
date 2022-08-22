@@ -38,7 +38,7 @@
       [
         "html",
         {
-          "open": "always"
+          "open": "never"
         }
       ]
     ],
@@ -81,7 +81,7 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 7487,
+                  "duration": 10142,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
