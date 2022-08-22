@@ -1,7 +1,7 @@
 import type { PlaywrightTestConfig } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
-  testMatch: ["tests/basicActions.test.ts"],
+  testMatch: ["tests/modals.test.ts"],
   use: {
     headless: false,
     screenshot: "on",
@@ -11,7 +11,7 @@ const config: PlaywrightTestConfig = {
   reporter: [["dot"], ["json", {
     outputFile: "jsonReports/jsonReport.json"
   }], ["html", {
-    open: "never"
+    open: "always"
   }]]   
   };
 

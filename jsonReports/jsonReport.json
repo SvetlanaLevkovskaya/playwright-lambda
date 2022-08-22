@@ -19,7 +19,7 @@
         "testDir": "D:/playwright-lambda",
         "testIgnore": [],
         "testMatch": [
-          "tests/basicActions.test.ts"
+          "tests/alerts.test.ts"
         ],
         "timeout": 30000
       }
@@ -38,7 +38,7 @@
       [
         "html",
         {
-          "open": "never"
+          "open": "always"
         }
       ]
     ],
@@ -62,13 +62,13 @@
   },
   "suites": [
     {
-      "title": "tests\\basicActions.test.ts",
-      "file": "tests/basicActions.test.ts",
+      "title": "tests\\alerts.test.ts",
+      "file": "tests/alerts.test.ts",
       "line": 0,
       "column": 0,
       "specs": [
         {
-          "title": "Interaction with inputs",
+          "title": "prompt",
           "ok": true,
           "tags": [],
           "tests": [
@@ -81,16 +81,10 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 7542,
+                  "duration": 6045,
                   "stdout": [
                     {
-                      "text": "Please enter your Message\n"
-                    },
-                    {
-                      "text": "Before entering a value:  \n"
-                    },
-                    {
-                      "text": "After entering a value:  Hi, Sveta\n"
+                      "text": "Enter name\n"
                     }
                   ],
                   "stderr": [],
@@ -99,12 +93,12 @@
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-basicActions-Interaction-with-inputs\\video.webm"
+                      "path": "D:\\playwright-lambda\\test-results\\tests-alerts-prompt\\video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-basicActions-Interaction-with-inputs\\test-finished-1.png"
+                      "path": "D:\\playwright-lambda\\test-results\\tests-alerts-prompt\\test-finished-1.png"
                     }
                   ]
                 }
@@ -112,91 +106,9 @@
               "status": "expected"
             }
           ],
-          "file": "tests/basicActions.test.ts",
-          "line": 3,
-          "column": 1
-        },
-        {
-          "title": "Sum",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 6252,
-                  "stdout": [
-                    {
-                      "text": "122\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "attachments": [
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-basicActions-Sum\\video.webm"
-                    },
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-basicActions-Sum\\test-finished-1.png"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "file": "tests/basicActions.test.ts",
-          "line": 15,
-          "column": 1
-        },
-        {
-          "title": "checkbox",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 3903,
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "attachments": [
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-basicActions-checkbox\\video.webm"
-                    },
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-basicActions-checkbox\\test-finished-1.png"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "file": "tests/basicActions.test.ts",
-          "line": 33,
-          "column": 1
+          "file": "tests/alerts.test.ts",
+          "line": 30,
+          "column": 6
         }
       ]
     }
