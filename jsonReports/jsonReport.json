@@ -14,12 +14,12 @@
       {
         "outputDir": "D:/playwright-lambda/test-results",
         "repeatEach": 1,
-        "retries": 2,
+        "retries": 0,
         "name": "",
         "testDir": "D:/playwright-lambda",
         "testIgnore": [],
         "testMatch": [
-          "tests/recorded.test.ts"
+          "tests/basicActions.test.ts"
         ],
         "timeout": 30000
       }
@@ -62,13 +62,13 @@
   },
   "suites": [
     {
-      "title": "tests\\recorded.test.ts",
-      "file": "tests/recorded.test.ts",
+      "title": "tests\\basicActions.test.ts",
+      "file": "tests/basicActions.test.ts",
       "line": 0,
       "column": 0,
       "specs": [
         {
-          "title": "test",
+          "title": "",
           "ok": true,
           "tags": [],
           "tests": [
@@ -80,52 +80,39 @@
               "results": [
                 {
                   "workerIndex": 0,
-                  "status": "timedOut",
-                  "duration": 30009,
-                  "error": {
-                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                  },
-                  "stdout": [],
+                  "status": "passed",
+                  "duration": 10411,
+                  "stdout": [
+                    {
+                      "text": "Please enter your Message\n"
+                    },
+                    {
+                      "text": "Before entering a value:  \n"
+                    },
+                    {
+                      "text": "After entering a value:  Hi, Sveta\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-recorded-test\\video.webm"
+                      "path": "D:\\playwright-lambda\\test-results\\tests-basicActions-\\video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-recorded-test\\test-failed-1.png"
-                    }
-                  ]
-                },
-                {
-                  "workerIndex": 1,
-                  "status": "passed",
-                  "duration": 16755,
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 1,
-                  "attachments": [
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-recorded-test-retry1\\video.webm"
-                    },
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-recorded-test-retry1\\test-finished-1.png"
+                      "path": "D:\\playwright-lambda\\test-results\\tests-basicActions-\\test-finished-1.png"
                     }
                   ]
                 }
               ],
-              "status": "flaky"
+              "status": "expected"
             }
           ],
-          "file": "tests/recorded.test.ts",
+          "file": "tests/basicActions.test.ts",
           "line": 3,
           "column": 1
         }
