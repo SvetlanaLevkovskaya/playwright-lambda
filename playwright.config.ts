@@ -5,7 +5,10 @@ const config: PlaywrightTestConfig = {
   use: {
     headless: false,
     screenshot: "on",
-    video : "on"
+    video: "on",
+    launchOptions: {
+      slowMo: 1000
+    }
   },
   retries: 0,
   reporter: [["dot"], ["json", {
