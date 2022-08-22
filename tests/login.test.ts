@@ -26,11 +26,10 @@ test('register test demo', async () => {
 
   // Click on the button
   await page.click("//input[@value='Continue']")
-
   
 });
 
-test.only('login test demo', async () => {
+test('login test demo', async () => {
   const browser = await chromium.launch({headless: false});
   const context = await browser.newContext();
   const page = await context.newPage();
