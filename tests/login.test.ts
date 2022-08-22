@@ -48,4 +48,10 @@ test.only('login test demo', async () => {
   await newTab.goto("https://ecommerce-playground.lambdatest.io/index.php?route=account/login");
   await page.waitForTimeout(5000);
 
+  // Open new window (without cash)
+  const newContext = await browser.newContext();
+  const newWindow = await newContext.newPage();
+  await newWindow.goto("https://ecommerce-playground.lambdatest.io/index.php?route=account/login");
+  await newWindow.waitForTimeout(5000);
+
 });
