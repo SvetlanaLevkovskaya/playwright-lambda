@@ -37,4 +37,4 @@ test("checkbox",async ({ page}) => {
   await singleCheckbox.check();
   expect(singleCheckbox).toBeChecked();
 
-})
+});
