@@ -12,14 +12,14 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "d:/playwright-lambda/test-results",
+        "outputDir": "D:/playwright-lambda/test-results",
         "repeatEach": 1,
         "retries": 0,
         "name": "",
-        "testDir": "d:/playwright-lambda",
+        "testDir": "D:/playwright-lambda",
         "testIgnore": [],
         "testMatch": [
-          "tests/frames.test.ts"
+          "tests/windows.test.ts"
         ],
         "timeout": 30000
       }
@@ -46,7 +46,7 @@
       "max": 5,
       "threshold": 15000
     },
-    "rootDir": "d:/playwright-lambda",
+    "rootDir": "D:/playwright-lambda",
     "quiet": false,
     "shard": null,
     "updateSnapshots": "missing",
@@ -55,20 +55,20 @@
     "webServer": null,
     "_watchMode": false,
     "_webServers": [],
-    "_globalOutputDir": "d:\\playwright-lambda",
-    "_configDir": "d:\\playwright-lambda",
+    "_globalOutputDir": "D:\\playwright-lambda",
+    "_configDir": "D:\\playwright-lambda",
     "_testGroupsCount": 1,
     "_workerIsolation": "isolate-pools"
   },
   "suites": [
     {
-      "title": "tests\\frames.test.ts",
-      "file": "tests/frames.test.ts",
+      "title": "tests\\windows.test.ts",
+      "file": "tests/windows.test.ts",
       "line": 0,
       "column": 0,
       "specs": [
         {
-          "title": "interact with frames",
+          "title": "interact with multiple tabs",
           "ok": true,
           "tags": [],
           "tests": [
@@ -81,10 +81,22 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 17635,
+                  "duration": 18983,
                   "stdout": [
                     {
-                      "text": "Number of frames: 25\n"
+                      "text": "\u001b[33m3\u001b[39m\n"
+                    },
+                    {
+                      "text": "https://www.lambdatest.com/selenium-playground/window-popup-modal-demo\n"
+                    },
+                    {
+                      "text": "https://www.facebook.com/lambdatest/\n"
+                    },
+                    {
+                      "text": "https://twitter.com/intent/follow?screen_name=Lambdatesting\n"
+                    },
+                    {
+                      "text": "LambdaTest\n"
                     }
                   ],
                   "stderr": [],
@@ -93,12 +105,32 @@
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "d:\\playwright-lambda\\test-results\\tests-frames-interact-with-frames\\video.webm"
+                      "path": "D:\\playwright-lambda\\test-results\\tests-windows-interact-with-multiple-tabs\\video-2.webm"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\playwright-lambda\\test-results\\tests-windows-interact-with-multiple-tabs\\video-1.webm"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\playwright-lambda\\test-results\\tests-windows-interact-with-multiple-tabs\\video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "d:\\playwright-lambda\\test-results\\tests-frames-interact-with-frames\\test-finished-1.png"
+                      "path": "D:\\playwright-lambda\\test-results\\tests-windows-interact-with-multiple-tabs\\test-finished-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\playwright-lambda\\test-results\\tests-windows-interact-with-multiple-tabs\\test-finished-2.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\playwright-lambda\\test-results\\tests-windows-interact-with-multiple-tabs\\test-finished-3.png"
                     }
                   ]
                 }
@@ -106,8 +138,8 @@
               "status": "expected"
             }
           ],
-          "file": "tests/frames.test.ts",
-          "line": 20,
+          "file": "tests/windows.test.ts",
+          "line": 18,
           "column": 6
         }
       ]
