@@ -19,7 +19,7 @@
         "testDir": "d:/playwright-lambda",
         "testIgnore": [],
         "testMatch": [
-          "tests/dropdown.test.ts"
+          "tests/frames.test.ts"
         ],
         "timeout": 30000
       }
@@ -62,13 +62,13 @@
   },
   "suites": [
     {
-      "title": "tests\\dropdown.test.ts",
-      "file": "tests/dropdown.test.ts",
+      "title": "tests\\frames.test.ts",
+      "file": "tests/frames.test.ts",
       "line": 0,
       "column": 0,
       "specs": [
         {
-          "title": "jquery select dropdown2",
+          "title": "interact with frames",
           "ok": true,
           "tags": [],
           "tests": [
@@ -81,20 +81,24 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 14933,
-                  "stdout": [],
+                  "duration": 17635,
+                  "stdout": [
+                    {
+                      "text": "Number of frames: 25\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "d:\\playwright-lambda\\test-results\\tests-dropdown-jquery-select-dropdown2\\video.webm"
+                      "path": "d:\\playwright-lambda\\test-results\\tests-frames-interact-with-frames\\video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "d:\\playwright-lambda\\test-results\\tests-dropdown-jquery-select-dropdown2\\test-finished-1.png"
+                      "path": "d:\\playwright-lambda\\test-results\\tests-frames-interact-with-frames\\test-finished-1.png"
                     }
                   ]
                 }
@@ -102,8 +106,8 @@
               "status": "expected"
             }
           ],
-          "file": "tests/dropdown.test.ts",
-          "line": 45,
+          "file": "tests/frames.test.ts",
+          "line": 20,
           "column": 6
         }
       ]
