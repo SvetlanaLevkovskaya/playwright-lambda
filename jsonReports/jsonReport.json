@@ -19,7 +19,7 @@
         "testDir": "D:/playwright-lambda",
         "testIgnore": [],
         "testMatch": [
-          "tests/windows.test.ts"
+          "tests/datePicker.test.ts"
         ],
         "timeout": 30000
       }
@@ -62,13 +62,13 @@
   },
   "suites": [
     {
-      "title": "tests\\windows.test.ts",
-      "file": "tests/windows.test.ts",
+      "title": "tests\\datePicker.test.ts",
+      "file": "tests/datePicker.test.ts",
       "line": 0,
       "column": 0,
       "specs": [
         {
-          "title": "interact with multiple tabs",
+          "title": "date picker using moment2",
           "ok": true,
           "tags": [],
           "tests": [
@@ -81,56 +81,20 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 18983,
-                  "stdout": [
-                    {
-                      "text": "\u001b[33m3\u001b[39m\n"
-                    },
-                    {
-                      "text": "https://www.lambdatest.com/selenium-playground/window-popup-modal-demo\n"
-                    },
-                    {
-                      "text": "https://www.facebook.com/lambdatest/\n"
-                    },
-                    {
-                      "text": "https://twitter.com/intent/follow?screen_name=Lambdatesting\n"
-                    },
-                    {
-                      "text": "LambdaTest\n"
-                    }
-                  ],
+                  "duration": 25419,
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-windows-interact-with-multiple-tabs\\video-2.webm"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-windows-interact-with-multiple-tabs\\video-1.webm"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-windows-interact-with-multiple-tabs\\video.webm"
+                      "path": "D:\\playwright-lambda\\test-results\\tests-datePicker-date-picker-using-moment2\\video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-windows-interact-with-multiple-tabs\\test-finished-1.png"
-                    },
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-windows-interact-with-multiple-tabs\\test-finished-2.png"
-                    },
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-windows-interact-with-multiple-tabs\\test-finished-3.png"
+                      "path": "D:\\playwright-lambda\\test-results\\tests-datePicker-date-picker-using-moment2\\test-finished-1.png"
                     }
                   ]
                 }
@@ -138,8 +102,8 @@
               "status": "expected"
             }
           ],
-          "file": "tests/windows.test.ts",
-          "line": 18,
+          "file": "tests/datePicker.test.ts",
+          "line": 54,
           "column": 6
         }
       ]

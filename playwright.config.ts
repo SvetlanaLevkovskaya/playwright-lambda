@@ -1,7 +1,7 @@
 import type { PlaywrightTestConfig } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
-  testMatch: ["tests/windows.test.ts"],
+  testMatch: ["tests/datePicker.test.ts"],
   use: {
     headless: false,
     screenshot: "on",
