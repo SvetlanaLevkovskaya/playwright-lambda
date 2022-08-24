@@ -12,14 +12,14 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "D:/playwright-lambda/test-results",
+        "outputDir": "d:/playwright-lambda/test-results",
         "repeatEach": 1,
         "retries": 0,
         "name": "",
-        "testDir": "D:/playwright-lambda",
+        "testDir": "d:/playwright-lambda",
         "testIgnore": [],
         "testMatch": [
-          "tests/datePicker.test.ts"
+          "tests/uploadDownload.test.ts"
         ],
         "timeout": 30000
       }
@@ -46,7 +46,7 @@
       "max": 5,
       "threshold": 15000
     },
-    "rootDir": "D:/playwright-lambda",
+    "rootDir": "d:/playwright-lambda",
     "quiet": false,
     "shard": null,
     "updateSnapshots": "missing",
@@ -55,20 +55,20 @@
     "webServer": null,
     "_watchMode": false,
     "_webServers": [],
-    "_globalOutputDir": "D:\\playwright-lambda",
-    "_configDir": "D:\\playwright-lambda",
+    "_globalOutputDir": "d:\\playwright-lambda",
+    "_configDir": "d:\\playwright-lambda",
     "_testGroupsCount": 1,
     "_workerIsolation": "isolate-pools"
   },
   "suites": [
     {
-      "title": "tests\\datePicker.test.ts",
-      "file": "tests/datePicker.test.ts",
+      "title": "tests\\uploadDownload.test.ts",
+      "file": "tests/uploadDownload.test.ts",
       "line": 0,
       "column": 0,
       "specs": [
         {
-          "title": "date picker using moment2",
+          "title": "upload files1",
           "ok": true,
           "tags": [],
           "tests": [
@@ -81,20 +81,24 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 25419,
-                  "stdout": [],
+                  "duration": 23685,
+                  "stdout": [
+                    {
+                      "text": "\u001b[33mtrue\u001b[39m\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-datePicker-date-picker-using-moment2\\video.webm"
+                      "path": "d:\\playwright-lambda\\test-results\\tests-uploadDownload-upload-files1\\video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "D:\\playwright-lambda\\test-results\\tests-datePicker-date-picker-using-moment2\\test-finished-1.png"
+                      "path": "d:\\playwright-lambda\\test-results\\tests-uploadDownload-upload-files1\\test-finished-1.png"
                     }
                   ]
                 }
@@ -102,9 +106,9 @@
               "status": "expected"
             }
           ],
-          "file": "tests/datePicker.test.ts",
-          "line": 54,
-          "column": 6
+          "file": "tests/uploadDownload.test.ts",
+          "line": 35,
+          "column": 7
         }
       ]
     }
