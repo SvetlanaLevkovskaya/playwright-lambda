@@ -41,12 +41,12 @@ export default class RegisterPage{
   };
 
   async clickTermandcondition() {
-    await this.page.click("//input[name='agree']");
+    await this.page.click("input[name='agree']");
 
   };
 
   async clickContinueToRegister() {
-    await this.page.click("//input[@value='Continue']");
+    await this.page.click("input[value='Continue']");
 
   };
 };
