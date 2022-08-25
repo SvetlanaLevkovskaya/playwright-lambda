@@ -19,7 +19,7 @@
         "testDir": "d:/playwright-lambda",
         "testIgnore": [],
         "testMatch": [
-          "tests/uploadDownload.test.ts"
+          "pomtest/addToCard.test.ts"
         ],
         "timeout": 30000
       }
@@ -62,13 +62,13 @@
   },
   "suites": [
     {
-      "title": "tests\\uploadDownload.test.ts",
-      "file": "tests/uploadDownload.test.ts",
+      "title": "pomtest\\addToCard.test.ts",
+      "file": "pomtest/addToCard.test.ts",
       "line": 0,
       "column": 0,
       "specs": [
         {
-          "title": "upload files1",
+          "title": "register test_01",
           "ok": true,
           "tags": [],
           "tests": [
@@ -81,24 +81,20 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 23685,
-                  "stdout": [
-                    {
-                      "text": "\u001b[33mtrue\u001b[39m\n"
-                    }
-                  ],
+                  "duration": 19366,
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "d:\\playwright-lambda\\test-results\\tests-uploadDownload-upload-files1\\video.webm"
+                      "path": "d:\\playwright-lambda\\test-results\\pomtest-addToCard-register-test-01\\video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "d:\\playwright-lambda\\test-results\\tests-uploadDownload-upload-files1\\test-finished-1.png"
+                      "path": "d:\\playwright-lambda\\test-results\\pomtest-addToCard-register-test-01\\test-finished-1.png"
                     }
                   ]
                 }
@@ -106,9 +102,9 @@
               "status": "expected"
             }
           ],
-          "file": "tests/uploadDownload.test.ts",
-          "line": 35,
-          "column": 7
+          "file": "pomtest/addToCard.test.ts",
+          "line": 9,
+          "column": 1
         }
       ]
     }
