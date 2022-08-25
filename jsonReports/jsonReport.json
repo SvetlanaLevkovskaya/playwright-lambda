@@ -12,11 +12,11 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "d:/playwright-lambda/test-results",
+        "outputDir": "D:/playwright-lambda/test-results",
         "repeatEach": 1,
         "retries": 0,
         "name": "",
-        "testDir": "d:/playwright-lambda",
+        "testDir": "D:/playwright-lambda",
         "testIgnore": [],
         "testMatch": [
           "pomtest/addToCard.test.ts"
@@ -46,7 +46,7 @@
       "max": 5,
       "threshold": 15000
     },
-    "rootDir": "d:/playwright-lambda",
+    "rootDir": "D:/playwright-lambda",
     "quiet": false,
     "shard": null,
     "updateSnapshots": "missing",
@@ -55,8 +55,8 @@
     "webServer": null,
     "_watchMode": false,
     "_webServers": [],
-    "_globalOutputDir": "d:\\playwright-lambda",
-    "_configDir": "d:\\playwright-lambda",
+    "_globalOutputDir": "D:\\playwright-lambda",
+    "_configDir": "D:\\playwright-lambda",
     "_testGroupsCount": 1,
     "_workerIsolation": "isolate-pools"
   },
@@ -66,45 +66,132 @@
       "file": "pomtest/addToCard.test.ts",
       "line": 0,
       "column": 0,
-      "specs": [
+      "specs": [],
+      "suites": [
         {
-          "title": "register test_01",
-          "ok": true,
-          "tags": [],
-          "tests": [
+          "title": "Page Object test",
+          "file": "pomtest/addToCard.test.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [
             {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "",
-              "results": [
+              "title": "register test",
+              "ok": true,
+              "tags": [],
+              "tests": [
                 {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 19366,
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "attachments": [
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
                     {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "d:\\playwright-lambda\\test-results\\pomtest-addToCard-register-test-01\\video.webm"
-                    },
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "d:\\playwright-lambda\\test-results\\pomtest-addToCard-register-test-01\\test-finished-1.png"
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 14485,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\playwright-lambda\\test-results\\pomtest-addToCard-Page-Object-test-register-test\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\playwright-lambda\\test-results\\pomtest-addToCard-Page-Object-test-register-test\\test-finished-1.png"
+                        }
+                      ]
                     }
-                  ]
+                  ],
+                  "status": "expected"
                 }
               ],
-              "status": "expected"
+              "file": "pomtest/addToCard.test.ts",
+              "line": 11,
+              "column": 3
+            },
+            {
+              "title": "login test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 9165,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\playwright-lambda\\test-results\\pomtest-addToCard-Page-Object-test-login-test\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\playwright-lambda\\test-results\\pomtest-addToCard-Page-Object-test-login-test\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "pomtest/addToCard.test.ts",
+              "line": 25,
+              "column": 3
+            },
+            {
+              "title": "add to card",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 13462,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\playwright-lambda\\test-results\\pomtest-addToCard-Page-Object-test-add-to-card\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\playwright-lambda\\test-results\\pomtest-addToCard-Page-Object-test-add-to-card\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "pomtest/addToCard.test.ts",
+              "line": 35,
+              "column": 3
             }
-          ],
-          "file": "pomtest/addToCard.test.ts",
-          "line": 9,
-          "column": 1
+          ]
         }
       ]
     }

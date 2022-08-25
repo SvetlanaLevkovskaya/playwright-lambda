@@ -5,8 +5,11 @@ export default class HomePage{
 
   };
 
-  async clickOnSpecialMenu(email:string) {
-    await this.page.click("(//span[contains(text(),'Special')]/../..)[2]");
-
+  async clickOnSpecialMenu() {
+    await Promise.all([
+      this.page.waitForNavigation({waitUntil:"networkidle"}),
+      this.page.click("(//span[contains(text(),'Special')]/../..)[2]")
+    ]);
+    
   };
 };

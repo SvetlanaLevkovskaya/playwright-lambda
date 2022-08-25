@@ -6,8 +6,8 @@ export default class SpecialHotPage{
   };
 
   async addFirstItemTotheCard() {
-    await this.page.hover("//div[@class='image']/a", { strict:false });
-    await this.page.locator("(//button[@title='Add to Card'])").nth[0].click();
+    await this.page.hover("(//img[@title='iPod Touch'])[1]", { strict:false });
+    await this.page.locator("(//button[@title='Add to Cart'])").nth(0).click();
 
 };
   async isToasNisible(){
