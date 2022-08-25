@@ -8,6 +8,11 @@ const email = "lev02@gmail.com"
 const password = "12qw12"
 
 test.describe("Page Object test",async () => {
+
+/*   test.use({
+    baseURL: "somthing"
+  }) */
+
   test("register test", async ({ page, baseURL }) => {
     const register = new RegisterPage(page);
     await page.goto(`${baseURL}route=account/register`);

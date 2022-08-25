@@ -19,7 +19,7 @@
         "testDir": "D:/playwright-lambda",
         "testIgnore": [],
         "testMatch": [
-          "fixture/fixtest.test.ts"
+          "pomtest/addToCardUsingFixtures.test.ts"
         ],
         "timeout": 30000
       }
@@ -62,42 +62,139 @@
   },
   "suites": [
     {
-      "title": "fixture\\fixtest.test.ts",
-      "file": "fixture/fixtest.test.ts",
+      "title": "pomtest\\addToCardUsingFixtures.test.ts",
+      "file": "pomtest/addToCardUsingFixtures.test.ts",
       "line": 0,
       "column": 0,
-      "specs": [
+      "specs": [],
+      "suites": [
         {
-          "title": "fixture",
-          "ok": true,
-          "tags": [],
-          "tests": [
+          "title": "Page Object test",
+          "file": "pomtest/addToCardUsingFixtures.test.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
             {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "",
-              "results": [
+              "title": "register test",
+              "ok": true,
+              "tags": [],
+              "tests": [
                 {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 8,
-                  "stdout": [
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
                     {
-                      "text": "\u001b[33m44\u001b[39m LEV@GMAIL.COM\n"
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 20875,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\playwright-lambda\\test-results\\pomtest-addToCardUsingFixtures-Page-Object-test-register-test\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\playwright-lambda\\test-results\\pomtest-addToCardUsingFixtures-Page-Object-test-register-test\\test-finished-1.png"
+                        }
+                      ]
                     }
                   ],
-                  "stderr": [],
-                  "retry": 0,
-                  "attachments": []
+                  "status": "expected"
                 }
               ],
-              "status": "expected"
+              "file": "pomtest/addToCardUsingFixtures.test.ts",
+              "line": 9,
+              "column": 3
+            },
+            {
+              "title": "login test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 19992,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\playwright-lambda\\test-results\\pomtest-addToCardUsingFixtures-Page-Object-test-login-test\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\playwright-lambda\\test-results\\pomtest-addToCardUsingFixtures-Page-Object-test-login-test\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "pomtest/addToCardUsingFixtures.test.ts",
+              "line": 24,
+              "column": 3
+            },
+            {
+              "title": "add to card",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "timedOut",
+                      "duration": 30003,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\playwright-lambda\\test-results\\pomtest-addToCardUsingFixtures-Page-Object-test-add-to-card\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\playwright-lambda\\test-results\\pomtest-addToCardUsingFixtures-Page-Object-test-add-to-card\\test-failed-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "file": "pomtest/addToCardUsingFixtures.test.ts",
+              "line": 34,
+              "column": 3
             }
-          ],
-          "file": "fixture/fixtest.test.ts",
-          "line": 3,
-          "column": 1
+          ]
         }
       ]
     }
