@@ -1,7 +1,7 @@
 import type { PlaywrightTestConfig } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
-  testMatch: ["pomtest/addToCard.test.ts"],
+  testMatch: ["fixture/fixtest.test.ts"],
   use: {
     baseURL: "https://ecommerce-playground.lambdatest.io/index.php?",
     headless: false,
