@@ -10,7 +10,7 @@ export default class SpecialHotPage{
     await this.page.locator("(//button[@title='Add to Cart'])").nth(0).click();
 
 };
-  async isToasNisible(){
+  async isToastVisible(){
     const toast = this.page.locator("a.btn.btn-primary.btn-block");
     await toast.waitFor({state:"visible"});
     return toast;

@@ -4,8 +4,11 @@ import * as data from "../test-data/addToCard.test-data.test.json"
 const email = "sv100@gmail.com"
 const password = "12qw12qw"
 
-test.describe("Page Object test",async () => {
+/* test.use({
+  browserName: "firefox"
+}); */
 
+test.describe("Page Object test",async () => {
   test("register test", async ({ page, baseURL, registerPage }) => {
     //const register = new RegisterPage(page);
     await page.goto(`${baseURL}route=account/register`);
@@ -39,7 +42,7 @@ test.describe("Page Object test",async () => {
     await loginPage.login(data.email, data.password);
     await homePage.clickOnSpecialMenu();
     await specialPage.addFirstItemTotheCard();
-    const isCardIsVisible = await specialPage.isToasNisible();
+    const isCardIsVisible = await specialPage.isToastVisible();
     expect(isCardIsVisible).toBeVisible();
   });
 });
