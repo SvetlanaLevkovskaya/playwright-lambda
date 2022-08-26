@@ -62,14 +62,14 @@
     "quiet": false,
     "shard": null,
     "updateSnapshots": "missing",
-    "version": "1.25.0",
+    "version": "1.25.1",
     "workers": 4,
     "webServer": null,
     "_watchMode": false,
     "_webServers": [],
     "_globalOutputDir": "D:\\playwright-lambda",
     "_configDir": "D:\\playwright-lambda",
-    "_testGroupsCount": 2,
+    "_testGroupsCount": 1,
     "_workerIsolation": "isolate-pools"
   },
   "suites": [
@@ -100,7 +100,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 13485,
+                      "duration": 19616,
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
@@ -139,7 +139,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 9690,
+                      "duration": 11337,
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
@@ -178,7 +178,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 12531,
+                      "duration": 9190,
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
@@ -197,134 +197,6 @@
                     }
                   ],
                   "status": "expected"
-                }
-              ],
-              "file": "pomtest/addToCardUsingFixtures.test.ts",
-              "line": 37,
-              "column": 3
-            }
-          ]
-        },
-        {
-          "title": "Page Object test",
-          "file": "pomtest/addToCardUsingFixtures.test.ts",
-          "line": 11,
-          "column": 6,
-          "specs": [
-            {
-              "title": "register test",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 13806,
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "D:\\playwright-lambda\\test-results\\pomtest-addToCardUsingFixtures-Page-Object-test-register-test-firefox\\video.webm"
-                        },
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "D:\\playwright-lambda\\test-results\\pomtest-addToCardUsingFixtures-Page-Object-test-register-test-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "file": "pomtest/addToCardUsingFixtures.test.ts",
-              "line": 12,
-              "column": 3
-            },
-            {
-              "title": "login test",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 8404,
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "D:\\playwright-lambda\\test-results\\pomtest-addToCardUsingFixtures-Page-Object-test-login-test-firefox\\video.webm"
-                        },
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "D:\\playwright-lambda\\test-results\\pomtest-addToCardUsingFixtures-Page-Object-test-login-test-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "file": "pomtest/addToCardUsingFixtures.test.ts",
-              "line": 27,
-              "column": 3
-            },
-            {
-              "title": "add to card",
-              "ok": false,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "timedOut",
-                      "duration": 30012,
-                      "error": {
-                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                      },
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "D:\\playwright-lambda\\test-results\\pomtest-addToCardUsingFixtures-Page-Object-test-add-to-card-firefox\\video.webm"
-                        },
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "D:\\playwright-lambda\\test-results\\pomtest-addToCardUsingFixtures-Page-Object-test-add-to-card-firefox\\test-failed-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "unexpected"
                 }
               ],
               "file": "pomtest/addToCardUsingFixtures.test.ts",

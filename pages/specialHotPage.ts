@@ -6,7 +6,7 @@ export default class SpecialHotPage{
   };
 
   async addFirstItemTotheCard() {
-    await this.page.hover("(//img[@title='iPod Touch'])[1]", { strict:false });
+    await this.page.hover("(//img[@class='lazy-load'][1])", { strict:false });
     await this.page.locator("(//button[@title='Add to Cart'])").nth(0).click();
 
 };
