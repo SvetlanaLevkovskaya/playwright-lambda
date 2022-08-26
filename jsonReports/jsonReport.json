@@ -100,7 +100,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 19616,
+                      "duration": 11657,
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
@@ -139,7 +139,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 11337,
+                      "duration": 6565,
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
@@ -178,7 +178,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 9190,
+                      "duration": 9491,
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
